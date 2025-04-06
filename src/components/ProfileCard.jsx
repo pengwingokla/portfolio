@@ -46,10 +46,10 @@ export default function ProfileCard() {
 
             {/* Location & School */}
             <div className="text-start">
-                {/* Location */}
+                Location
                 <p className="mb-1 d-flex align-items-start">
                     <i className="bi bi-geo-alt-fill me-2 text-light"></i>
-                    <span className="text-light">Bloomfield, NJ</span>
+                    <span className="text-light">United States</span>
                 </p>
 
                 {/* Education */}
@@ -58,6 +58,15 @@ export default function ProfileCard() {
                     <span className="text-light">
                         M.S. in Data Science<br />
                         New Jersey Institute of Technology
+                    </span>
+                </p>
+
+                {/* Education */}
+                <p className="mb-1 mt-2 d-flex align-items-start">
+                    <i className="bi bi-mortarboard-fill me-2 text-light"></i>
+                    <span className="text-light">
+                        B.S. in Computer Science<br />
+                        Fulbright University Vietnam
                     </span>
                 </p>
             </div>
