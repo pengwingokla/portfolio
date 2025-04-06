@@ -4,7 +4,14 @@ import ProfileCard from './components/ProfileCard';
 import ProjectCard from './components/ProjectCard';
 import ExperienceEntry from './components/ExperienceEntry';
 // images
-import aameta from "/src/img/aa-meta.png";
+import aaMeta from './img/aa-meta.png';
+import aaPomodoro from './img/aa-dualencoder.png';
+import aaSpark from './img/aa-spark.png';
+import aaPomodoro from './img/aa-pomodoro.gif';
+import aaVideoSearch from "./img/aa-videosearch.png";
+import aacar from './img/aa-car.gif';
+import aalego from "./img/aa-lego.png";
+
 
 
 export default function App() {
@@ -78,7 +85,7 @@ export default function App() {
       tags: ["Computer Vision", "Hugging Face", "HPC"],
       date: "Jul 2024",
       link: "https://github.com/pengwingokla/MetaAI-segment-anything-model",
-      image: { aameta }
+      image: aaMeta
     },
     {
       title: "Parallel AWS EC2 Car Detector Using Amazon SQS and Rekognition",
@@ -86,7 +93,7 @@ export default function App() {
       tags: ["Java", "AWS EC2", "S3", "SQS", "Rekognition"],
       date: "Dec 2024",
       link: "https://github.com/pengwingokla/Parallel-Detector-with-Amazon-SQS-and-Rekognition",
-      image: "./img/aa-spark.png"
+      image: aaSpark
     },
     {
       title: "Full-Stack Pomodoro Android App",
@@ -94,7 +101,7 @@ export default function App() {
       tags: ["Kotlin", "SQLite", "API"],
       date: "Dec 2023",
       link: "https://github.com/CS388-Fall-2023-Group-Project",
-      image: "./img/aa-pomodoro.gif"
+      image: aaPomodoro
     },
     {
       title: "Spark Wine Quality Prediction",
@@ -102,7 +109,7 @@ export default function App() {
       tags: ["Apache Spark", "MLlib", "EC2", "HDFS", "Docker"],
       date: "Dec 2024",
       link: "https://github.com/pengwingokla/Spark-Wine-Predictor",
-      image: "./img/aa-spark.png"
+      image: aaSpark
     },
     {
       title: "Deep Learning Dual Encoder YouTube Video Retrieval and Recommendation",
@@ -110,7 +117,7 @@ export default function App() {
       tags: ["Python", "TensorFlow", "PyTorch", "Keras", "Azure Cosmos DB", "SQL", "YOLO", "CUDA", "Autoencoder"],
       date: "Mar 2024",
       link: "https://github.com/pengwingokla/Machine-Learning-Video-Search",
-      image: "./img/aa-videosearch.png"
+      image: aaVideoSearch
     },
     {
       title: "Kalman-filtered Multi-Object Detection for Drone Video",
@@ -118,14 +125,14 @@ export default function App() {
       tags: ["Python", "YOLO", "Kalman Filter", "Computer Vision", "TensorFlow"],
       date: "April 2024",
       link: "https://drive.google.com/drive/folders/1rpOvINEG87zVAyD-nCcOF6t6y0vgJ7T0?usp=sharing",
-      image: "./img/aa-car.png"
+      image: aacar
     },
     {
       title: "CNN Vision LEGO Conveyor Belt Sorter",
       description: "Built a LEGO piece sorting machine using Arduino and C++ servo logic, with a TensorFlow-trained CNN to classify parts and trigger conveyor actions.",
       tags: ["C++", "Python", "TensorFlow", "Arduino", "CNN", "Computer Vision"],
       link: "https://drive.google.com/file/d/1rq_ZEgqtOUeORUiQRMvtXVrFe0T3OPE-/view?usp=sharing",
-      image: "./img/aa-lego.png"
+      image: aaleog
     },
     // Add more as needed
   ];
