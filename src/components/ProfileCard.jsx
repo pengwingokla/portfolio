@@ -18,7 +18,7 @@ export default function ProfileCard() {
                 }}
             >
                 <img
-                    // src="src/img/propic.jpg"
+                    src="src/img/propic.jpg"
                     alt="Profile"
                     style={{
                         width: '100px',
