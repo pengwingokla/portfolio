@@ -4,7 +4,7 @@ import ProfileCard from './components/ProfileCard';
 import ProjectCard from './components/ProjectCard';
 import ExperienceEntry from './components/ExperienceEntry';
 // images
-import aameta from "/img/aa-meta.png";
+import aameta from "./img/aa-meta.png";
 
 
 export default function App() {
@@ -86,7 +86,7 @@ export default function App() {
       tags: ["Java", "AWS EC2", "S3", "SQS", "Rekognition"],
       date: "Dec 2024",
       link: "https://github.com/pengwingokla/Parallel-Detector-with-Amazon-SQS-and-Rekognition",
-      image: "/img/aa-spark.png"
+      image: "./img/aa-spark.png"
     },
     {
       title: "Full-Stack Pomodoro Android App",
@@ -94,7 +94,7 @@ export default function App() {
       tags: ["Kotlin", "SQLite", "API"],
       date: "Dec 2023",
       link: "https://github.com/CS388-Fall-2023-Group-Project",
-      image: "/img/aa-pomodoro.gif"
+      image: "./img/aa-pomodoro.gif"
     },
     {
       title: "Spark Wine Quality Prediction",
@@ -102,7 +102,7 @@ export default function App() {
       tags: ["Apache Spark", "MLlib", "EC2", "HDFS", "Docker"],
       date: "Dec 2024",
       link: "https://github.com/pengwingokla/Spark-Wine-Predictor",
-      image: "/img/aa-spark.png"
+      image: "./img/aa-spark.png"
     },
     {
       title: "Deep Learning Dual Encoder YouTube Video Retrieval and Recommendation",
@@ -110,7 +110,7 @@ export default function App() {
       tags: ["Python", "TensorFlow", "PyTorch", "Keras", "Azure Cosmos DB", "SQL", "YOLO", "CUDA", "Autoencoder"],
       date: "Mar 2024",
       link: "https://github.com/pengwingokla/Machine-Learning-Video-Search",
-      image: "/img/aa-videosearch.png"
+      image: "./img/aa-videosearch.png"
     },
     {
       title: "Kalman-filtered Multi-Object Detection for Drone Video",
@@ -118,14 +118,14 @@ export default function App() {
       tags: ["Python", "YOLO", "Kalman Filter", "Computer Vision", "TensorFlow"],
       date: "April 2024",
       link: "https://drive.google.com/drive/folders/1rpOvINEG87zVAyD-nCcOF6t6y0vgJ7T0?usp=sharing",
-      image: "/img/aa-car.png"
+      image: "./img/aa-car.png"
     },
     {
       title: "CNN Vision LEGO Conveyor Belt Sorter",
       description: "Built a LEGO piece sorting machine using Arduino and C++ servo logic, with a TensorFlow-trained CNN to classify parts and trigger conveyor actions.",
       tags: ["C++", "Python", "TensorFlow", "Arduino", "CNN", "Computer Vision"],
       link: "https://drive.google.com/file/d/1rq_ZEgqtOUeORUiQRMvtXVrFe0T3OPE-/view?usp=sharing",
-      image: "/img/aa-lego.png"
+      image: "./img/aa-lego.png"
     },
     // Add more as needed
   ];
