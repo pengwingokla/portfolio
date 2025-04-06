@@ -3,6 +3,8 @@ import './App.css'
 import ProfileCard from './components/ProfileCard';
 import ProjectCard from './components/ProjectCard';
 import ExperienceEntry from './components/ExperienceEntry';
+// images
+import aameta from "/img/aa-meta.png";
 
 
 export default function App() {
@@ -76,7 +78,7 @@ export default function App() {
       tags: ["Computer Vision", "Hugging Face", "HPC"],
       date: "Jul 2024",
       link: "https://github.com/pengwingokla/MetaAI-segment-anything-model",
-      image: "/img/aa-meta.png"
+      image: { aameta }
     },
     {
       title: "Parallel AWS EC2 Car Detector Using Amazon SQS and Rekognition",
