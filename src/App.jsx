@@ -4,12 +4,12 @@ import ProfileCard from './components/ProfileCard';
 import ProjectCard from './components/ProjectCard';
 import ExperienceEntry from './components/ExperienceEntry';
 // images
-import aaMeta from './img/aa-meta.png';
-import aaPomodoro from './img/aa-dualencoder.png';
-import aaSpark from './img/aa-spark.png';
-import aaVideoSearch from "./img/aa-videosearch.png";
-import aacar from './img/aa-car.png';
-import aalego from "./img/aa-lego.png";
+import aaMeta from 'src/img/aa-meta.png';
+import aaPomodoro from 'src/img/aa-dualencoder.png';
+import aaSpark from 'src/img/aa-spark.png';
+import aaVideoSearch from "src/img/aa-videosearch.png";
+import aacar from 'src/img/aa-car.png';
+import aalego from "src/img/aa-lego.png";
 
 
 
