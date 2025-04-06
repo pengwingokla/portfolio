@@ -7,7 +7,6 @@ import ExperienceEntry from './components/ExperienceEntry';
 import aaMeta from './img/aa-meta.png';
 import aaPomodoro from './img/aa-dualencoder.png';
 import aaSpark from './img/aa-spark.png';
-import aaPomodoro from './img/aa-pomodoro.gif';
 import aaVideoSearch from "./img/aa-videosearch.png";
 import aacar from './img/aa-car.gif';
 import aalego from "./img/aa-lego.png";
@@ -132,7 +131,7 @@ export default function App() {
       description: "Built a LEGO piece sorting machine using Arduino and C++ servo logic, with a TensorFlow-trained CNN to classify parts and trigger conveyor actions.",
       tags: ["C++", "Python", "TensorFlow", "Arduino", "CNN", "Computer Vision"],
       link: "https://drive.google.com/file/d/1rq_ZEgqtOUeORUiQRMvtXVrFe0T3OPE-/view?usp=sharing",
-      image: aaleog
+      image: aalego
     },
     // Add more as needed
   ];
