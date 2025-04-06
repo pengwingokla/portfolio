@@ -46,11 +46,11 @@ export default function ProfileCard() {
 
             {/* Location & School */}
             <div className="text-start">
-                Location
-                <p className="mb-1 d-flex align-items-start">
+                {/* Location */}
+                {/* <p className="mb-1 d-flex align-items-start">
                     <i className="bi bi-geo-alt-fill me-2 text-light"></i>
                     <span className="text-light">United States</span>
-                </p>
+                </p> */}
 
                 {/* Education */}
                 <p className="mb-1 mt-2 d-flex align-items-start">
