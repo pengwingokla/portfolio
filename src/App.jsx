@@ -8,7 +8,7 @@ import aaMeta from './img/aa-meta.png';
 import aaPomodoro from './img/aa-dualencoder.png';
 import aaSpark from './img/aa-spark.png';
 import aaVideoSearch from "./img/aa-videosearch.png";
-import aacar from './img/aa-car.gif';
+import aacar from './img/aa-car.png';
 import aalego from "./img/aa-lego.png";
 
 
