@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import ProfileCard from './components/ProfileCard';
 import ProjectCard from './components/ProjectCard';
@@ -78,7 +76,7 @@ export default function App() {
       tags: ["Computer Vision", "Hugging Face", "HPC"],
       date: "Jul 2024",
       link: "https://github.com/pengwingokla/MetaAI-segment-anything-model",
-      image: "src/img/aa-meta.png"
+      // image: "src/img/aa-meta.png"
     },
     {
       title: "Parallel AWS EC2 Car Detector Using Amazon SQS and Rekognition",
@@ -86,7 +84,7 @@ export default function App() {
       tags: ["Java", "AWS EC2", "S3", "SQS", "Rekognition"],
       date: "Dec 2024",
       link: "https://github.com/pengwingokla/Parallel-Detector-with-Amazon-SQS-and-Rekognition",
-      image: "src/img/aa-SparkWeb.png"
+      // image: "src/img/aa-SparkWeb.png"
     },
     {
       title: "Full-Stack Pomodoro Android App",
@@ -94,7 +92,7 @@ export default function App() {
       tags: ["Kotlin", "SQLite", "API"],
       date: "Dec 2023",
       link: "https://github.com/CS388-Fall-2023-Group-Project",
-      image: "src/img/aa-pomodorogif.gif"
+      // image: "src/img/aa-pomodorogif.gif"
     },
     {
       title: "Spark Wine Quality Prediction",
@@ -102,7 +100,7 @@ export default function App() {
       tags: ["Apache Spark", "MLlib", "EC2", "HDFS", "Docker"],
       date: "Nov 2024",
       link: "https://github.com/pengwingokla/Spark-Wine-Predictor",
-      image: "src/img/aa-wine-quality-pred.png"
+      // image: "src/img/aa-wine-quality-pred.png"
     },
     {
       title: "Deep Learning Dual Encoder YouTube Video Retrieval and Recommendation",

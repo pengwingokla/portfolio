@@ -18,7 +18,7 @@ export default function ProfileCard() {
                 }}
             >
                 <img
-                    src="src/img/propic.jpg"
+                    // src="src/img/propic.jpg"
                     alt="Profile"
                     style={{
                         width: '100px',
@@ -29,7 +29,7 @@ export default function ProfileCard() {
                     }}
                 />
             </div>
-            
+
 
             {/* Name and Title */}
             <h5 className="fw-bold mt-3 mb-1">Uyen Nguyen</h5>
