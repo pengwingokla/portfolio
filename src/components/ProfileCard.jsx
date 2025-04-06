@@ -1,4 +1,4 @@
-import profilePic from '../img/propic.png'
+import profilePic from '../img/propic.jpg'
 
 export default function ProfileCard() {
     return (
