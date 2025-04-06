@@ -5,7 +5,7 @@ import ProjectCard from './components/ProjectCard';
 import ExperienceEntry from './components/ExperienceEntry';
 // images
 import aaMeta from '/img/meta.png';
-import aaPomodoro from '/img/pomodoro.gif';
+import aaPomodoro from '/img/pomodoroapp.png';
 import aaSpark from '/img/spark.png';
 import aaVideoSearch from '/img/videosearch.png';
 import aacar from '/img/car.png';
