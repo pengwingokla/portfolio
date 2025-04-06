@@ -1,3 +1,5 @@
+import profilePic from './img/propic.jpg'
+
 export default function ProfileCard() {
     return (
         <div className="glass-card text-center px-4 pt-4 pb-4">
@@ -18,7 +20,7 @@ export default function ProfileCard() {
                 }}
             >
                 <img
-                    src="src/img/propic.jpg"
+                    src={profilePic}
                     alt="Profile"
                     style={{
                         width: '100px',
