@@ -4,7 +4,7 @@ import ProfileCard from './components/ProfileCard';
 import ProjectCard from './components/ProjectCard';
 import ExperienceEntry from './components/ExperienceEntry';
 // images
-import aameta from "./img/aa-meta.png";
+import aameta from "/src/img/aa-meta.png";
 
 
 export default function App() {
