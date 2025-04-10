@@ -210,7 +210,7 @@ export default function App() {
 
           {/* Main Content */}
           <div className="col-md-8 col-lg-9 d-flex flex-column justify-content-left">
-            <div className="px-5" style={{ width: '100%' }}>
+            <div className="px-4" style={{ width: '100%' }}>
               {/* EXPERIENCE SECTION */}
               <section>
                 <div className="px-5 px-md-6 py-5 d-flex flex-column" style={{ maxWidth: '1200px', width: '100%' }}>
@@ -222,10 +222,10 @@ export default function App() {
 
                 </div>
               </section>
-              {/* EXPERIENCE SECTION */}
+              {/* LEADERSHIP SECTION */}
               <section>
                 <div className="px-5 px-md-6 py-5 d-flex flex-column" style={{ maxWidth: '1200px', width: '100%' }}>
-                  {/* EXPERIENCE HEADER */}
+                  {/* LEADERSHIP HEADER */}
                   <h3 className="text-white text-md-start mb-1">Leadership</h3>
                   {leadershipList.map((exp, idx) => (
                     <ExperienceEntry key={idx} {...exp} />
