@@ -167,10 +167,10 @@ export default function App() {
       </div>
 
       <div className="container-fluid px-0" style={{ position: 'relative', zIndex: 1 }}>
-        <div className="row g-0 min-vh-100">
+        <div className="row g-0" style={{ width: '100%' }}>
           {/* Sidebar */}
           <div
-            className="col-md-4 p-5"
+            className="col-md-4 col-lg-3 p-3"
             style={{
               fontFamily: "'Work Sans', sans-serif",
               position: 'sticky',
@@ -183,11 +183,11 @@ export default function App() {
           </div>
 
           {/* Main Content */}
-          <div className="col-md-8 d-flex flex-column justify-content-left">
+          <div className="col-md-8 col-lg-9 d-flex flex-column justify-content-left">
             <div className="px-5" style={{ width: '100%' }}>
               {/* EXPERIENCE SECTION */}
               <section>
-                <div className="px-4 px-md-6 py-5 d-flex flex-column" style={{ maxWidth: '1000px', width: '100%' }}>
+                <div className="px-4 px-md-6 py-5 d-flex flex-column" style={{ maxWidth: '1200px', width: '100%' }}>
                   {/* EXPERIENCE HEADER */}
                   <h3 className="text-white text-md-start mb-1">Experience</h3>
                   {experienceList.map((exp, idx) => (
