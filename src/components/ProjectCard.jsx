@@ -51,7 +51,7 @@ export default function ProjectCard({ title, description, tags, link, image, dat
   
           {/* Date */}
           {date && (
-            <p className="text-secondary small mb-2 text-start" style={{ fontSize: '0.75rem' }}>
+            <p className="text-normal small mb-2 text-start" style={{ fontSize: '0.75rem' }}>
               {date}
             </p>
           )}
@@ -62,7 +62,7 @@ export default function ProjectCard({ title, description, tags, link, image, dat
           </h5>
   
           {/* Description */}
-          <p className="text-secondary small mb-3 text-start" style={{ fontSize: '0.85rem' }}>
+          <p className="text-normal small mb-3 text-start" style={{ fontSize: '0.85rem' }}>
             {description}
           </p>
   

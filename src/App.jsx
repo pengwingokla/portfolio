@@ -18,25 +18,38 @@ export default function App() {
 
   const experienceList = [
     {
-      role: "Graduate Research Assistant",
+      role: "Volunteer Data Scientist",
       company: "NJIT",
       link: "https://www.njit.edu",
+      date: "Dec 2024 – PRESENT",
+      description: [
+        <>
+        ‣ Learning and applying insights from <em>FineWeb</em>-style curation methods to contribute to the design of ViGen, an end-to-end Vietnamese LLM dataset pipeline involving deduplication, filtering, topic modeling, and benchmark development.
+        </>,
+        "‣ Contributing to the development of crowdsourcing platform and data processing pipeline to support high-quality Vietnamese datasets for open-source LLMs.",
+      ]
+
+    },
+    {
+      role: "Graduate Research Assistant",
+      company: "NJIT",
+      link: "https://sites.google.com/site/ihaiphan/home?authuser=0",
       date: "Sep 2024 – PRESENT",
       description: [
-        "Implemented and evaluated RAG with AI4Good Lab’s LLM using HumanEval and MBPP benchmarks to assess model improvement.",
-        "Leveraged AST parsing to curate 1.15B rows datasets with CodeQwen, CodeLlama and StarCoder for AI4Good Lab on Linux servers.",
-        "Developed Bash scripts to interact with StarCoder vLLM server for multithreaded API requests in a Linux environment."
+        "‣ Implemented and evaluated RAG code-retrieval pipeline with AI4Good Lab’s LLM by using HumanEval and MBPP benchmarks to assess model improvement.",
+        "‣ Leveraged AST parsing to curate 1.15B rows datasets with CodeQwen, CodeLlama and StarCoder for AI4Good Lab on Linux servers.",
+        "‣ Developed Bash scripts to interact with StarCoder vLLM server for multithreaded API requests in a Linux environment."
       ]
     },
     {
-      role: "Data Analyst",
-      company: "NJIT",
+      role: "Graduate Data Analyst",
+      company: "NJIT Data Science Department",
       link: "https://www.njit.edu",
-      date: "Sep 2024 – PRESENT",
+      date: "Sep 2024 – Jan 2025",
       description: [
-        "Built a SQL-Powered RAG Pipeline for GenAI chatbot with Snowflake and Fivetran for the NJIT Data Analytics department.",
-        "Conducted ETL processes on university data by scraping IPEDS and using Snowflake warehouse to assess NJIT market competitiveness.",
-        "Developed interactive PowerBI, Tableau and Streamlit enrollment data dashboards for stakeholders to track competitiveness."
+        "‣ Built a SQL-Powered RAG Pipeline for GenAI chatbot with Snowflake and Fivetran for the NJIT Data Analytics department.",
+        "‣ Conducted ETL processes on university data by scraping IPEDS and using Snowflake warehouse to assess NJIT market competitiveness.",
+        "‣ Developed interactive PowerBI, Tableau and Streamlit enrollment data dashboards for stakeholders to track competitiveness."
       ],
       tags: ["Python", "SQL", "Snowflake", "Streamlit"]
     },
@@ -46,9 +59,9 @@ export default function App() {
       link: "https://www.njit.edu",
       date: "Jan – Mar 2024",
       description: [
-        "Reached 15% increase in precision by fine-tuning Meta AI’s Segment Anything Model for sidewalk detection on satellite images.",
-        "Achieved IoU of 89% by optimizing hyperparameters cross-entropy, Dice, and focal loss functions for better segmentation.",
-        "Dockerized and deployed on Hugging Face Shiny for interactive detection on satellite images (See Code Walkthrough and GitHub)"
+        "‣ Reached 15% increase in precision by fine-tuning Meta AI’s Segment Anything Model for sidewalk detection on satellite images.",
+        "‣ Achieved IoU of 89% by optimizing hyperparameters cross-entropy, Dice, and focal loss functions for better segmentation.",
+        "‣ Dockerized and deployed on Hugging Face Shiny for interactive detection on satellite images (See Code Walkthrough and GitHub)"
       ],
       tags: ["JavaScript", "TypeScript", "React", "Storybook"]
     },
@@ -58,11 +71,11 @@ export default function App() {
       link: "/#",
       date: "Jun – Aug 2024",
       description: [
-        "Developed website using React, Vue, TailwindCSS to sell 4 product lines and acquired 60+ partner contacts using Google App Script.",
-        "Optimized database transition from Excel to SQL DBMS, cutting 80% query execution time while handling 15% data volume increase.",
-        "Replicated production environments on Bash and Linux/macOS virtual machines, ensuring seamless deployment to Kubernetes."
+        "‣ Developed website using React, Vue, TailwindCSS to sell 4 product lines and acquired 60+ partner contacts using Google App Script.",
+        "‣ Optimized database transition from Excel to SQL DBMS, cutting 80% query execution time while handling 15% data volume increase.",
+        "‣ Replicated production environments on Bash and Linux/macOS virtual machines, ensuring seamless deployment to Kubernetes."
       ],
-      tags: ["JavaScript", "TypeScript", "React", "Storybook"]
+      tags: ["React", "Node.js", "TailwindCSS"]
     },
     {
       role: "UX Research Intern",
@@ -70,10 +83,10 @@ export default function App() {
       link: "https://timo.vn",
       date: "Jun 2021 – Jan 2022",
       description: [
-        "Increased transaction size and user engagement by 22% by leveraging Power BI for large-scale transaction pattern analysis.",
-        "Designed 8+ A/B tests on transaction completion data, data-driven insights for strategic roadmap for the Move Money product sprints."
+        "‣ Increased transaction size and user engagement by 22% by leveraging Power BI for large-scale transaction pattern analysis.",
+        "‣ Designed 8+ A/B tests on transaction completion data, data-driven insights for strategic roadmap for the Move Money product sprints."
       ],
-      tags: ["JavaScript", "TypeScript", "React", "Storybook"]
+      tags: ["PowerBI", "Tableau", "Figma"]
     }
   ];
 
@@ -112,7 +125,7 @@ export default function App() {
     },
     {
       title: "Deep Learning Dual Encoder YouTube Video Retrieval and Recommendation",
-      description: "A video retrieval system using autoencoder models in TensorFlow and PyTorch, powered by YOLO for frame understanding and indexed using Azure Cosmos DB and SQL.",
+      description: "A retrieval system that indexes and recommends YouTube videos by learning latent semantic structures from video content and user queries, using dual encoders for multimodal narrative matching. Built with TensorFlow and PyTorch, leveraging YOLO for frame understanding and indexed via Azure Cosmos DB and SQL.",
       tags: ["Python", "TensorFlow", "PyTorch", "Keras", "Azure Cosmos DB", "SQL", "YOLO", "CUDA", "Autoencoder"],
       date: "Mar 2024",
       link: "https://github.com/pengwingokla/Machine-Learning-Video-Search",

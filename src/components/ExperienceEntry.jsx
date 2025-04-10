@@ -1,7 +1,7 @@
 export default function ExperienceEntry({ role, company, link, date, description, tags = [] }) {
     return (
         <div className="d-flex flex-column flex-md-row mb-5">
-            <div className="me-md-4 text-secondary small text-md-end" style={{ minWidth: '130px' }}>
+            <div className="me-md-4 text-normal small text-md-end" style={{ minWidth: '130px' }}>
                 {date}
             </div>
 
@@ -19,7 +19,7 @@ export default function ExperienceEntry({ role, company, link, date, description
                 </h5>
 
                 {description.map((para, idx) => (
-                    <p className="text-secondary mb-2" key={idx}>
+                    <p className="text-normal mb-2" key={idx}>
                         {para}
                     </p>
                 ))}
