@@ -25,7 +25,7 @@ export default function App() {
       date: "Dec 2024 – PRESENT",
       description: [
         <>
-        ‣ Learning and applying insights from <em>FineWeb</em>-style curation methods to contribute to the design of ViGen, an end-to-end Vietnamese LLM dataset pipeline involving deduplication, filtering, topic modeling, and benchmark development.
+          ‣ Learning and applying insights from <em>FineWeb</em>-style curation methods to contribute to the design of <a href="https://aiforvietnam.org/vigen/" target="_blank" rel="noopener noreferrer" className="text-link text-decoration-none">ViGen</a>, an end-to-end Vietnamese LLM dataset pipeline involving deduplication, filtering, topic modeling, and benchmark development.
         </>,
         "‣ Contributing to the development of crowdsourcing platform and data processing pipeline to support high-quality Vietnamese datasets for open-source LLMs.",
       ]
@@ -34,7 +34,7 @@ export default function App() {
     {
       role: "Graduate Research Assistant",
       company: "NJIT Research Lab",
-      link: "hhttps://www.njit.edu",
+      link: "https://www.njit.edu",
       date: "Sep 2024 – PRESENT",
       description: [
         "‣ Implemented and evaluated RAG code-retrieval pipeline with AI4Good Lab’s LLM by using HumanEval and MBPP benchmarks to assess model improvement.",
@@ -62,9 +62,11 @@ export default function App() {
       description: [
         "‣ Reached 15% increase in precision by fine-tuning Meta AI’s Segment Anything Model for sidewalk detection on satellite images.",
         "‣ Achieved IoU of 89% by optimizing hyperparameters cross-entropy, Dice, and focal loss functions for better segmentation.",
-        "‣ Dockerized and deployed on Hugging Face Shiny for interactive detection on satellite images (See Code Walkthrough and GitHub)"
+        <>
+        ‣ Dockerized and deployed on Hugging Face Shiny for interactive detection on satellite images (See <a href="https://youtu.be/HRwn39lGHCk?si=QhtJMd6pp1ncGMwI" target="_blank" rel="noopener noreferrer" className="text-link text-decoration-none">Code Walkthrough</a> and <a href="https://github.com/pengwingokla/artificial-intelligent-assignments" target="_blank" rel="noopener noreferrer" className="text-link text-decoration-none">GitHub</a>)
+        </>
       ],
-      tags: ["JavaScript", "TypeScript", "React", "Storybook"]
+      tags: ["Python", "Hugging Face Shiny"]
     },
     {
       role: "Web Developer",
