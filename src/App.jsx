@@ -6,6 +6,7 @@ import ExperienceEntry from './components/ExperienceEntry';
 // images
 import aaMeta from '/img/meta.png';
 import aaPomodoro from '/img/pomodoroapp.png';
+import aaPomodoroGIF from '/img/pomodoro.gif';
 import aaSpark from '/img/spark.png';
 import aaVideoSearch from '/img/videosearch.png';
 import aacar from '/img/car.png';
@@ -113,7 +114,7 @@ export default function App() {
       tags: ["Kotlin", "SQLite", "API"],
       date: "Dec 2023",
       link: "https://github.com/CS388-Fall-2023-Group-Project",
-      image: aaPomodoro
+      image: aaPomodoroGIF
     },
     {
       title: "Spark Wine Quality Prediction",
@@ -126,7 +127,7 @@ export default function App() {
     {
       title: "Deep Learning Dual Encoder YouTube Video Retrieval and Recommendation",
       description: "A retrieval system that indexes and recommends YouTube videos by learning latent semantic structures from video content and user queries, using dual encoders for multimodal narrative matching. Built with TensorFlow and PyTorch, leveraging YOLO for frame understanding and indexed via Azure Cosmos DB and SQL.",
-      tags: ["Python", "TensorFlow", "PyTorch", "Keras", "Azure Cosmos DB", "SQL", "YOLO", "CUDA", "Autoencoder"],
+      tags: ["Python", "TensorFlow", "PyTorch", "Keras", "Azure Cosmos DB", "SQL", "YOLO", "CUDA", "Autoencoder", "PCA", "Semantic Search", "Similarity Retrieval"],
       date: "Mar 2024",
       link: "https://github.com/pengwingokla/Machine-Learning-Video-Search",
       image: aaVideoSearch
