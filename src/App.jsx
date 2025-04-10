@@ -33,11 +33,13 @@ export default function App() {
     },
     {
       role: "Graduate Research Assistant",
-      company: "NJIT Research Lab",
+      company: "NJIT",
       link: "https://www.njit.edu",
       date: "Sep 2024 – PRESENT",
       description: [
-        "‣ Implemented and evaluated RAG code-retrieval pipeline with AI4Good Lab’s LLM by using HumanEval and MBPP benchmarks to assess model improvement.",
+        <>
+        ‣ Implemented and evaluated RAG code-retrieval pipeline with <a href="https://sites.google.com/site/ihaiphan/home?authuser=0" target="_blank" rel="noopener noreferrer" className="text-link text-decoration-none">AI4Good Lab</a>’s LLM by using HumanEval and MBPP benchmarks to assess model improvement.
+        </>,
         "‣ Leveraged AST parsing to curate 1.15B rows datasets with CodeQwen, CodeLlama and StarCoder for AI4Good Lab on Linux servers.",
         "‣ Developed Bash scripts to interact with StarCoder vLLM server for multithreaded API requests in a Linux environment."
       ]
