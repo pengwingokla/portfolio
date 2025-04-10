@@ -19,8 +19,8 @@ export default function App() {
   const experienceList = [
     {
       role: "Volunteer Data Scientist",
-      company: "NJIT",
-      link: "https://www.njit.edu",
+      company: "AI for Vietnam",
+      link: "https://aiforvietnam.org/about-us/",
       date: "Dec 2024 – PRESENT",
       description: [
         <>
@@ -32,8 +32,8 @@ export default function App() {
     },
     {
       role: "Graduate Research Assistant",
-      company: "NJIT",
-      link: "https://sites.google.com/site/ihaiphan/home?authuser=0",
+      company: "NJIT Research Lab",
+      link: "hhttps://www.njit.edu",
       date: "Sep 2024 – PRESENT",
       description: [
         "‣ Implemented and evaluated RAG code-retrieval pipeline with AI4Good Lab’s LLM by using HumanEval and MBPP benchmarks to assess model improvement.",
