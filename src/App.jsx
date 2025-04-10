@@ -11,6 +11,7 @@ import aaSpark from '/img/spark.png';
 import aaVideoSearch from '/img/videosearch.png';
 import aacar from '/img/car.png';
 import aalego from '/img/lego.png';
+import aarproject from '/img/RProject.png';
 
 
 
@@ -22,13 +23,12 @@ export default function App() {
       role: "Volunteer Data Scientist",
       company: "AI for Vietnam",
       link: "https://aiforvietnam.org/about-us/",
-      date: "Dec 2024 – PRESENT",
+      date: "Jan 2025 – PRESENT",
       description: [
         <>
           ‣ Learning and applying insights from <em>FineWeb</em>-style curation methods to contribute to the design of <a href="https://aiforvietnam.org/vigen/" target="_blank" rel="noopener noreferrer" className="text-link text-decoration-none">ViGen</a>, an end-to-end Vietnamese LLM dataset pipeline involving deduplication, filtering, topic modeling, and benchmark development.
         </>,
-        "‣ Contributing to the development of crowdsourcing platform and data processing pipeline to support high-quality Vietnamese datasets for open-source LLMs.",
-      ]
+        ]
 
     },
     {
@@ -148,6 +148,13 @@ export default function App() {
       tags: ["C++", "Python", "TensorFlow", "Arduino", "CNN", "Computer Vision"],
       link: "https://drive.google.com/file/d/1rq_ZEgqtOUeORUiQRMvtXVrFe0T3OPE-/view?usp=sharing",
       image: aalego
+    },
+    {
+      title: "Data Analytics with R",
+      description: "Analyzed a collection of virology research papers to extract key trends and patterns using R. Implemented frequency analysis to surface the most prominent keywords across publications.",
+      tags: ["R", "Data Analytics"],
+      link: "https://github.com/pengwingokla/Data-Analytics-with-R",
+      image: aarproject
     },
     // Add more as needed
   ];

@@ -56,7 +56,7 @@ export default function ProfileCard() {
                 <p className="mb-1 mt-2 d-flex align-items-start">
                     <i className="bi bi-mortarboard-fill me-2 text-light"></i>
                     <span className="text-light">
-                        M.S. in Data Science<br />
+                        M.S. in Data Science (Computational Track)<br />
                         New Jersey Institute of Technology
                     </span>
                 </p>
