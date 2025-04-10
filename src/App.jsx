@@ -195,10 +195,10 @@ export default function App() {
       </div>
 
       <div className="container-fluid px-0" style={{ position: 'relative', zIndex: 1 }}>
-        <div className="row g-0" style={{ width: '100%' }}>
+        <div className="p-5 row g-5" style={{width: '100%' }}>
           {/* Sidebar */}
           <div
-            className="col-md-4 col-lg-3 p-3"
+            className="col-md-4 col-lg-3 p-2"
             style={{
               fontFamily: "'Work Sans', sans-serif",
               position: 'sticky',
