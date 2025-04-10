@@ -93,6 +93,22 @@ export default function App() {
     }
   ];
 
+  const leadershipList = [
+    {
+      role: "Tech Lead",
+      company: "Google Developer Student Club",
+      link: "https://www.linkedin.com/company/gdsc-fuv/posts/?feedView=all",
+      date: "May 2021 – May 2022",
+      description: [
+        <>
+        ‣ Secured Top 50 in the Google Solution Challenge 2022 by leading <a href="https://www.youtube.com/watch?v=eecZUa5bhGI&ab_channel=UyenNguyen" target="_blank" rel="noopener noreferrer" className="text-link text-decoration-none">Hearty Plant</a>, a $6,500-funded hydroponic farming system web app. 
+         </>,
+         "‣ Mentored a team of 5 Flutter beginners, promoting unit testing and code review practices, resulting in 10+ issues resolution in 3 months.",
+        "‣ Achieved 5% faster development cycle by integrating RESTful APIs and WebSocket to facilitate real-time sensor data handling.",
+        ],
+    },
+  ]
+
   const projectList = [
     {
       title: "Finetuning Meta AI’s Segment Anything Model for Sidewalk Detection on Satellite Images",
@@ -197,10 +213,21 @@ export default function App() {
             <div className="px-5" style={{ width: '100%' }}>
               {/* EXPERIENCE SECTION */}
               <section>
-                <div className="px-4 px-md-6 py-5 d-flex flex-column" style={{ maxWidth: '1200px', width: '100%' }}>
+                <div className="px-5 px-md-6 py-5 d-flex flex-column" style={{ maxWidth: '1200px', width: '100%' }}>
                   {/* EXPERIENCE HEADER */}
                   <h3 className="text-white text-md-start mb-1">Experience</h3>
                   {experienceList.map((exp, idx) => (
+                    <ExperienceEntry key={idx} {...exp} />
+                  ))}
+
+                </div>
+              </section>
+              {/* EXPERIENCE SECTION */}
+              <section>
+                <div className="px-5 px-md-6 py-5 d-flex flex-column" style={{ maxWidth: '1200px', width: '100%' }}>
+                  {/* EXPERIENCE HEADER */}
+                  <h3 className="text-white text-md-start mb-1">Leadership</h3>
+                  {leadershipList.map((exp, idx) => (
                     <ExperienceEntry key={idx} {...exp} />
                   ))}
 
