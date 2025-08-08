@@ -68,5 +68,5 @@ I'm always looking to improve! If you have any feedback, suggestions, or just wa
 **Website**: [https://www.uyenguyen.com/](https://www.uyenguyen.com/)
 
 ---
-**Project Portfolio Website**
-*by Uyen Nguyen*
+<br>**Project Portfolio Website**
+<br>*by Uyen Nguyen*
