@@ -1,7 +1,5 @@
 # Portfolio Website
 
-A modern, responsive portfolio website showcasing my projects, skills, and experience.
-
 ## 🚀 Live Demo
 
 [View Live Site](https://www.uyenguyen.com/)
