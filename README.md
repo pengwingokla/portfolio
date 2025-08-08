@@ -62,10 +62,10 @@ npm run dev
 ## 📬 Feedback
 I'm always looking to improve! If you have any feedback, suggestions, or just want to connect, feel free to reach out through any of the contact methods above.
 
-**Email**: [chloenguyencodes@gmail.com](chloenguyencodes@gmail.com)
-**GitHub**: [@pengwingokla](https://github.com/pengwingokla)
-**LinkedIn**: [@uyenguyen2001](https://www.linkedin.com/in/uyennguyen2001/)
-**Website**: [https://www.uyenguyen.com/](https://www.uyenguyen.com/)
+<br>**Email**: [chloenguyencodes@gmail.com](chloenguyencodes@gmail.com)
+<br>**GitHub**: [@pengwingokla](https://github.com/pengwingokla)
+<br>**LinkedIn**: [@uyenguyen2001](https://www.linkedin.com/in/uyennguyen2001/)
+<br>**Website**: [https://www.uyenguyen.com/](https://www.uyenguyen.com/)
 
 ---
 <br>**Project Portfolio Website**
