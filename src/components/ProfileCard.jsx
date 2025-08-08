@@ -44,31 +44,23 @@ export default function ProfileCard() {
                 <a href="mailto:chloenguyencodes@gmail.com" className="text-secondary fs-5"><i className="bi bi-envelope-at-fill"></i></a>
             </div>
 
-            {/* Location & School */}
+            {/* Education Section */}
             <div className="text-start">
-                {/* Location */}
-                {/* <p className="mb-1 d-flex align-items-start">
-                    <i className="bi bi-geo-alt-fill me-2 text-light"></i>
-                    <span className="text-light">United States</span>
-                </p> */}
-
-                {/* Education */}
-                <p className="mb-1 mt-2 d-flex align-items-start">
-                    <i className="bi bi-mortarboard-fill me-2 text-light"></i>
-                    <span className="text-light">
+                {/* Education Content */}
+                <div className="mb-2 d-flex align-items-start">
+                    <i className="bi bi-mortarboard-fill me-2 text-light mt-1"></i>
+                    <p className="mb-0 text-light small">
                         M.S. in Data Science (Computational Track)<br />
                         New Jersey Institute of Technology
-                    </span>
-                </p>
-
-                {/* Education */}
-                <p className="mb-1 mt-2 d-flex align-items-start">
-                    <i className="bi bi-mortarboard-fill me-2 text-light"></i>
-                    <span className="text-light">
+                    </p>
+                </div>
+                <div className="d-flex align-items-start">
+                    <i className="bi bi-mortarboard-fill me-2 text-light mt-1"></i>
+                    <p className="mb-0 text-light small">
                         B.S. in Computer Science<br />
                         Fulbright University Vietnam
-                    </span>
-                </p>
+                    </p>
+                </div>
             </div>
         </div>
     );
