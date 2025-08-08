@@ -57,6 +57,9 @@ npm install
 
 # Start development server
 npm run dev
+
+# To deploy
+npm run deploy
 ```
 
 ## 📬 Feedback
