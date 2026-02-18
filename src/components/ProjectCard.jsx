@@ -8,7 +8,7 @@ export default function ProjectCard({ title, description, tags, link, image, dat
         rel="noopener noreferrer"
         className="text-decoration-none"
         style={{
-          color: 'inherit',
+          color: '#000000',
           textDecoration: 'none',
           display: 'block',
           transition: 'transform 0.3s ease',
@@ -23,7 +23,7 @@ export default function ProjectCard({ title, description, tags, link, image, dat
             border: '1px solid rgba(255, 255, 255, 0.1)',
             boxShadow: '0 4px 20px rgba(0, 0, 0, 0.2)',
             fontFamily: "'Work Sans', sans-serif",
-            color: '#fff',
+            color: '#000000',
           }}
         >
           {/* Thumbnail */}
@@ -51,18 +51,18 @@ export default function ProjectCard({ title, description, tags, link, image, dat
   
           {/* Date */}
           {date && (
-            <p className="text-normal small mb-2 text-start" style={{ fontSize: '0.75rem' }}>
+            <p className="small mb-2 text-start" style={{ fontSize: '0.75rem', color: '#000000', fontWeight: 400 }}>
               {date}
             </p>
           )}
-  
+
           {/* Title */}
-          <h5 className="fw-bold mb-1 text-start" style={{ fontSize: '1rem' }}>
+          <h5 className="fw-bold mb-1 text-start" style={{ fontSize: '1rem', color: '#000000' }}>
             {title}
           </h5>
-  
+
           {/* Description */}
-          <p className="text-normal small mb-3 text-start" style={{ fontSize: '0.85rem' }}>
+          <p className="small mb-3 text-start" style={{ fontSize: '0.85rem', color: '#000000', fontWeight: 400 }}>
             {description}
           </p>
   
@@ -72,11 +72,12 @@ export default function ProjectCard({ title, description, tags, link, image, dat
               {tags.map((tag, idx) => (
                 <span
                   key={idx}
-                  className="badge text-dark"
                   style={{
-                    backgroundColor: '#ffc107',
+                    backgroundColor: 'rgba(0, 0, 0, 0.05)',
+                    color: '#000000',
+                    border: '1px solid rgba(0, 0, 0, 0.1)',
                     fontSize: '0.75rem',
-                    fontWeight: 600,
+                    fontWeight: 400,
                     borderRadius: '0.5rem',
                     padding: '0.3rem 0.6rem',
                   }}
@@ -88,7 +89,7 @@ export default function ProjectCard({ title, description, tags, link, image, dat
   
             {/* Optional: Arrow on the right still */}
             {link && (
-              <i className="bi bi-chevron-right" style={{ transition: 'transform 0.2s ease' }}></i>
+              <i className="bi bi-chevron-right" style={{ transition: 'transform 0.2s ease', color: '#000000' }}></i>
             )}
           </div>
         </div>
