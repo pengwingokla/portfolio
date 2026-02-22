@@ -1,3 +1,5 @@
+import fraudProjectImage from '/img/fraudproject.jpeg';
+
 export default function FeaturedProject({ projects = [] }) {
   return (
     <div id="project-cards" style={{
@@ -42,7 +44,7 @@ export default function FeaturedProject({ projects = [] }) {
             backgroundColor: '#f9fafb'
           }}>
             <img
-              src="/img/fraudproject.jpeg"
+              src={fraudProjectImage}
               alt="Project thumbnail"
               style={{
                 width: '100%',
