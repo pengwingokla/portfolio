@@ -24,7 +24,7 @@ export default function LeadershipSection({ experiences = [] }) {
         fontFamily: "'Work Sans', sans-serif",
         textAlign: 'left'
       }}>
-        leadership.
+        leadership<span style={{ color: '#35c8b4', fontWeight: 400 }}>.</span>
       </h1>
 
       {/* Two Column Layout */}
